@@ -1,0 +1,136 @@
+@media only screen and (max-width: 991px) {
+
+    .nav {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .intro__title {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .intro{
+        height: auto;
+        padding-top: 130px;
+        padding-bottom: 30px;
+    }
+
+    .intro__title {
+        font-size: 30px;
+    }
+
+    .intro__subtitle{
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+    label.hamburger{
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+
+    .features{
+        margin: 25px 0;
+    }
+
+    .features__item{
+        width: 100%;
+    }
+
+    .works__item{
+        width: 100%;
+        border-left: 1px solid #ffffff;
+    }
+
+    .team{
+        margin: 50px 0;
+    }
+
+    .team__inner{
+        margin: 0;
+    }
+
+    .team__item{
+        width: 100%;
+    }
+
+    .team__photo{
+        margin-bottom: 15px;
+    }
+
+    .team__name{
+        margin-bottom: 15px;
+    }
+
+    .team__prof{
+        margin-bottom: 15px;
+    }
+
+    .team__text{
+        margin-bottom: 15px;
+    }
+
+    .reviews{
+        padding-top: 15px;
+    }
+
+    .reviews__item{
+        flex-direction: column;
+    }
+
+    .reviews__photo{
+        height: auto;
+        border-radius: 15px;
+        overflow: hidden;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .owl-carousel .owl-item img{
+        width: 100%;
+    }
+
+    .owl-item img{
+        width: inherit;
+    }
+
+    .reviews__img{
+        position: relative;
+        transform: none;
+    }
+
+    .reviews__content{
+        width: 100%;
+        padding-left: 0;
+        margin-bottom: 45px;
+    }
+
+    .reviews__text{
+        font-size: 26px;
+    }
+
+    .owl-carousel .owl-dots{
+        bottom: 5%;
+        right: 40%;
+    }
+
+    .footer__inner{
+        flex-direction: column;
+        padding: 70px 0 30px;
+    }
+
+    .footer__block{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+
